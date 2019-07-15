@@ -1,0 +1,31 @@
+# 2_layer models: 
+
+ORI: original model proposed by Tensorflow
+ELU: original model + Elu activation function
+DRP40: original model + dropout set at 40
+64_BS: original model + batch size set at 64	
+ITH25: original model + 25000 steps
+REG: original model + regularization
+DCT15: original model + number of dct coeff. set as 15
+DCT30: original model + number of dct coeff. set as 30
+ADAM: model with Adam optimizer
+AD25: model with Adam optimizer + 25000 steps
+AD25R: model with Adam optimizer + 25000 steps + l2 regularization
+AD25RA1: model with Adam optimizer + 25000 steps + l2 regularization +
++ filter architecture modified: first conv(64,5,5) second conv(128,5,5)
+AD25RA2: model with Adam optimizer + 25000 steps + l2 regularization +
++ filter architecture modified: first conv(64,20,10) second conv(64,5,5)
+AD25R2M: model with Adam optimizer + 25000 steps + l2 regularization +
++ added a second max pooling
+
+# 1_layer models: 
+
+1L: original one convolutinal layer model proposed by Tensorflow
+AD1L: one convolutional layer model with Adam optimizer
+
+# 3_layer models:
+ORI3L25: original model + 25000 steps + added a third layer (128,4,4)
+AD25R3L: model with Adam optimizer + 25000 steps + l2 regularization +
++ added a third layer (128,4,4)
+
+

@@ -1,0 +1,1 @@
+For the correspondences of the names of the modell look the "readme" file in "Models".

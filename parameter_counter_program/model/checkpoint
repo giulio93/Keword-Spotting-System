@@ -1,0 +1,6 @@
+model_checkpoint_path: "low_latency_conv.ckpt-26000"
+all_model_checkpoint_paths: "low_latency_conv.ckpt-25600"
+all_model_checkpoint_paths: "low_latency_conv.ckpt-25700"
+all_model_checkpoint_paths: "low_latency_conv.ckpt-25800"
+all_model_checkpoint_paths: "low_latency_conv.ckpt-25900"
+all_model_checkpoint_paths: "low_latency_conv.ckpt-26000"

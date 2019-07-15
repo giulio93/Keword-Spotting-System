@@ -1,0 +1,1 @@
+This directory contains only the best models for category, with the integrated comments. These are the model presented in "trainin_all" tensorboard image.

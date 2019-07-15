@@ -1,0 +1,2 @@
+param_counter is a script that count the number of parameters contained in a model.
+To use it: insert a model checkpoint in the model directory, edit the file name in the script using the name of the last checkpoint(Es."/conv.ckpt-25000") and run it.
